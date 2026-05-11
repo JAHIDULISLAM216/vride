@@ -12,7 +12,7 @@ if (getenv('DATABASE_URL')) {
     define('DB_HOST', $dbUrl['host'] ?? 'localhost');
     define('DB_USER', $dbUrl['user'] ?? 'root');
     define('DB_PASS', $dbUrl['pass'] ?? '');
-    define('DB_NAME', ltrim($dbUrl['path'] ?? '/vehicle_rental', '/'));
+    define('DB_NAME', ltrim($dbUrl['path'] ?? '/railway', '/')); // Railway uses 'railway' database
     define('DB_PORT', $dbUrl['port'] ?? '3306');
 } else {
     // Local development
