@@ -1,0 +1,33 @@
+# Composer dependencies
+vendor/
+composer.lock
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+temp.txt
+temp2.txt
+temp3.txt
+Untitled-1.txt
+
+# Uploads (optional - sync separately if needed)
+uploads/*
+!uploads/.gitkeep
+
+# New folder (cleanup)
+New folder/
