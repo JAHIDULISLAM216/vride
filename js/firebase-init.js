@@ -6,13 +6,13 @@ import { initializeApp } from 'https://www.gstatic.com/firebasejs/11.6.0/firebas
 import { getAnalytics, isSupported } from 'https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyAU7J-Hn40cyktbMFplDwUTYKA2D2-h6ec',
-  authDomain: 'vride-93a8c.firebaseapp.com',
-  projectId: 'vride-93a8c',
-  storageBucket: 'vride-93a8c.firebasestorage.app',
-  messagingSenderId: '56364906742',
-  appId: '1:56364906742:web:7c0bcc00e50505922dd4d7',
-  measurementId: 'G-8YT8QV331M',
+  apiKey: 'AIzaSyAqu_J38YX_gukrdLxLPEr5Yy2OG0ir1aY',
+  authDomain: 'vride-41497.firebaseapp.com',
+  projectId: 'vride-41497',
+  storageBucket: 'vride-41497.firebasestorage.app',
+  messagingSenderId: '883712963057',
+  appId: '1:883712963057:web:389123cac16e7ca60d5450',
+  measurementId: 'G-6J14LVN6J2',
 };
 
 export const app = initializeApp(firebaseConfig);
