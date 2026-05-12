@@ -52,6 +52,7 @@ body {
   color: #e9edf8;
   min-height: 100vh;
   background: radial-gradient(circle at 20% 10%, #161b2f, #10131d 60%);
+  overflow-x: hidden;
 }
 a { color: inherit; text-decoration: none; }
 

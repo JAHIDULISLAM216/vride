@@ -35,6 +35,13 @@ if ($pdo && $_SESSION['user_id'] != 99) {
 .quick-actions{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:2.5rem;}
 .sec-sep{font-family:inherit;font-size:.7rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--blue);display:flex;align-items:center;gap:.6rem;margin-bottom:1.2rem;}
 .sec-sep::before{content:'';width:16px;height:1.5px;background:var(--blue);}
+@media(max-width:768px){
+  .dash-inner{padding:2rem 1.2rem 4rem;}
+  .dash-hello{font-size:1.5rem;}
+}
+@media(max-width:480px){
+  .dash-grid{grid-template-columns:1fr;}
+}
 </style>
 <div class="dash-wrap">
   <div class="dash-inner">

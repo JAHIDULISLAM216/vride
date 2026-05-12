@@ -202,7 +202,7 @@ a { text-decoration: none; color: inherit; }
 .toggle-pw:hover { color:rgba(226,232,240,.7); }
 
 .field-row { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
-@media(max-width:400px){ .field-row{grid-template-columns:1fr;} }
+@media(max-width:560px){ .field-row{grid-template-columns:1fr;} }
 
 /* Submit */
 .submit-btn {

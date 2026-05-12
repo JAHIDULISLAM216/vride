@@ -121,6 +121,10 @@ unset($v);
 
 /* ══ FILTER TABS ══ */
 .fstrip{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2.4rem;}
+@media(max-width:768px){
+  .fstrip{justify-content:center !important;gap:.7rem !important;}
+  .ftab{padding:.5rem 1rem !important;font-size:.65rem !important;}
+}
 .ftab{display:inline-flex;align-items:center;gap:.45rem;padding:.45rem 1.3rem;border-radius:30px;background:transparent;border:1px solid rgba(255,255,255,.07);color:var(--tx2);font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:all .3s;font-family:inherit;}
 .ftab:hover,.ftab.on{background:var(--bl);color:var(--bk);border-color:var(--bl);}
 .ftab i{font-size:.75rem;}
@@ -259,6 +263,13 @@ unset($v);
 .mspv{font-size:.98rem;color:var(--bl);font-weight:700;}
 .rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;}
 .rv.show{opacity:1;transform:none;}
+@media(max-width:768px){
+  .sec{padding:4rem 1.5rem;}
+  .st{margin-bottom:2.5rem;flex-direction:column;align-items:flex-start;}
+  .vg{grid-template-columns:1fr;}
+  .msg{grid-template-columns:1fr;}
+  .mo{max-width:100%;}
+}
 </style>
 <section class="sec sec-alt" id="fleet">
   <div class="si">
